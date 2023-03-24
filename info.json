@@ -1,0 +1,9 @@
+{
+    "title": "Replace String (expanded)",
+    "id": "ReplaceString",
+    "description": "Replace String",
+    "version": "1.1.2",
+    "type": "general",
+    "author": "MPG IT Consulting, Thomas F Goodwin",
+    "icon": "replaceString.svg"
+}
