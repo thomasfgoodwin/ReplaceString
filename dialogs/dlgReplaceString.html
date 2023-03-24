@@ -1,0 +1,36 @@
+<html class="dialog">
+	<head>
+		<Title>Replace String</title>
+		<script src="file:///mminit.js"></script>
+		<script src="dlgReplaceString.js"></script>
+	</head>
+	<body data-posSaveName='dlgReplaceString' data-defaultSize='250,500'>
+		<div class="uiRows" data-help="Settings General">
+			<div class="flex row">
+				<label>Destination Field:</label>
+				<div data-id="ddDestination" data-control-class="Dropdown" class="fill">
+					<Option Value="All" selected="selected">All</option>
+					<Option Value="Title">Title</option>
+					<Option Value="Artist">Artist</option>
+					<Option Value="Album">Album</option>
+					<Option Value="AlbumArtist">Album Artist</option>
+					<Option Value="Composer">Composer</option>
+				</div>
+			</div>
+			<div class="flex row">
+				<label>String To Replace:</label>
+				<div data-id="edtSearchStr" class="fill" data-control-class="Edit" data-init-params="{type: 'text'}"></div>
+			</div>
+			<div class="flex row">
+				<label>Replace With:</label>
+				<div data-id="edtReplaceStr" class="fill" data-control-class="Edit" data-init-params="{type: 'text'}"></div>
+			</div>
+			<div id="bottom" class="bgColorBase margins">
+				<div data-control-class="Buttons">
+					<div data-id="btnOK" data-default="1"></div>
+					<div data-id="btnCancel"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
