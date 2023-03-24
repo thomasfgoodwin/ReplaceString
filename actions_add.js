@@ -1,4 +1,4 @@
-// A simple script that replaces a specified string in Song Title, Artist, Album and Album Artist
+// A simple script that replaces a specified string in Song Title, Artist, Album, Album Artist or Composer
 
 actions.replaceString = {
 	title: _('Replace String') + '...',
